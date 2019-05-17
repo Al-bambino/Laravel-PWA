@@ -20,11 +20,15 @@ Detaljnije o instalaciji imate na [linku](https://laravel.com/docs/5.8/installat
 
 # Startovanje projekta
 Ukoliko skidate ovaj projekat, a niste upozanti sa gitom ili githubom, najjednostavnije je da idete na download.
+
 Ukoliko ste napravili svoj projekat pa vas interesuje samo kako da ga pokrenete u browseru, onda nije trebalo da procitate prethodni red.
+
 Buduci da i dalje pisemo php (samo sad uz pomoc frejmvorka), treba nam server koji ce taj kod da izvrsava.
-Najjednostavnija varijanta je da koristite PHP-ov ugradjen server. U svom terminalu odite do lokacije gde vam se nalazi projekat (pr. 'C:/Users/todor/Documents/projekat'). Kada ste u usli u projekat ukucajte `php artisan`.
+Najjednostavnija varijanta je da koristite PHP-ov ugradjen server. 
+U svom terminalu odite do lokacije gde vam se nalazi projekat (pr. 'C:/Users/todor/Documents/projekat'). Kada ste u usli u projekat ukucajte `php artisan`.
 Dobicete listu komandi koje mozete izvrstit sa artisanom - Laravelova konzolna aplikacija koja vam daje bezbroj mogucnosti.
 Jedna od prvih u listi komandi je  **serve** koja pokrece PHPov sever, te ukucajte `php artisan serve` i odite na datu ip adresu.
+
 Otovorite projekat u svom **[editoru](https://www.jetbrains.com/phpstorm/)** i pocnite istrazivanje u **routes/web.php** fajlu.
 
 # Prvi cas
