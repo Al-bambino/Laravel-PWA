@@ -45,4 +45,26 @@ Route::get('/kolekcije', 'IndexController@kolekcije');
 Route::get('/dinosaurus/create', 'DinosaurusController@create');
 Route::post('/dinosaurus', 'DinosaurusController@store');
 
+Route::get('/tasks', 'TaskController@index');
+Route::get('/tasks/{id}/edit', 'TaskController@edit');
+Route::put('/tasks/{id}', 'TaskController@update');
+Route::post('/tasks', 'TaskController@store');
+Route::get('/tasks/create', 'TaskController@create');
+
+
+Route::get('/projects', 'ProjectController@index');
+Route::post('/projects', 'ProjectController@store');
+Route::put('/projects/{id}', 'ProjectController@update');
+Route::get('/projects/create', 'ProjectController@create');
+Route::get('/projects/{id}/edit', 'ProjectController@edit');
+
+Route::get('/blogs', 'BlogController@index');
+Route::get('/blogs/create', 'BlogController@create');
+Route::post('/blogs', 'BlogController@store');
+
+
+
+
+
+
 
