@@ -8,7 +8,8 @@ class Blog extends Model
 {
     // posto smo napravili tabelu koja se zove 'blog' a ne 'blogs'
     // moramo Laravelu da kazemo da korsiti nasu tabelu
-    // Nije preporucljivo - uvek nazivajte table kao snake_case modela u mnozini
+    // Ovo nije preporucljivo - uvek nazivajte table kao snake_case modela u mnozini,
+    // tako ce Laravel prepoznati koju tabelu da koristi
     protected $table = 'blog';
 
     // radi suprotno od $fillable-a
