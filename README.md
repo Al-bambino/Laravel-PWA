@@ -42,3 +42,12 @@ Dokumentacija:
 * [Lifecycle](https://laravel.com/docs/5.8/lifecycle)
 * [Routing](https://laravel.com/docs/5.8/routing)
 * [Controllers](https://laravel.com/docs/5.8/controllers)
+
+# Treci cas 
+Modeli i REST metode za CRUD operacije.
+* [Modeli](https://laravel.com/docs/5.8/eloquent)
+
+# Cetvrti cas
+Radili smo migracije **database/migrations** i i validaciju requesta sa Request klasom u **app/Http/Requests**
+* [migracije](https://laravel.com/docs/5.8/migrations) i 
+* [validaciju requesta](https://laravel.com/docs/5.8/validation)
