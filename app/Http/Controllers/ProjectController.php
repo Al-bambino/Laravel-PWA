@@ -11,6 +11,11 @@ class ProjectController extends Controller
     {
         $projects = Project::all();
 
+        //primer ulancavanje metoda
+        $filtered = Project::where('broj_bodova', '>', 100)
+                            ->orderBy('name')
+                            ->get();
+
         return view('project.index', ['projects' => $projects]);
     }
 
