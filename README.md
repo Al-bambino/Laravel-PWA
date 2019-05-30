@@ -45,7 +45,7 @@ Dokumentacija:
 
 # Treci cas 
 Modeli i REST metode za CRUD operacije.
-U .env fajlu se nalaze podaci za konekciju ka bazi, ukoliko koristite XAMPP, nema potrebe da menjate nista.
+U .env fajlu se nalaze podaci za konekciju ka bazi, ukoliko koristite XAMPP, nema potrebe da menjate nista osim naziva baze.
 * [Modeli](https://laravel.com/docs/5.8/eloquent)
 
 # Cetvrti cas
